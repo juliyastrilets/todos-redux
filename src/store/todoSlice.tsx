@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-type ITodo = {
+type Todo = {
   id: number;
   title: string;
   completed: boolean;
 };
 interface TodosState {
-  value: ITodo[];
+  value: Todo[];
 }
 
 const initialState: TodosState = {
