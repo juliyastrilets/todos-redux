@@ -1,11 +1,11 @@
 import style from './style.module.css';
 
-interface TodoProps {
+interface CheckboxProps {
   checked: boolean;
   onChange: () => void;
 }
 
-export const Checkbox = ({ checked, onChange }: TodoProps) => {
+export const Checkbox = ({ checked, onChange }: CheckboxProps) => {
   return (
     <label
       className={`${style.checkbox} ${
