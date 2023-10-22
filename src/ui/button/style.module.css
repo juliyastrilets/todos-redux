@@ -1,0 +1,28 @@
+.button {
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.regular {
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+.small {
+  padding: 4px;
+}
+
+.button:hover {
+  background: #9966cc;
+}
+
+.button:disabled {
+  background: #7b7b7b;
+}
+
+.button:not(:disabled) {
+  cursor: pointer;
+  background: #4a3780;
+}

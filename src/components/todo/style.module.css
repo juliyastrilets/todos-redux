@@ -1,0 +1,23 @@
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: 600;
+}
+.titleChecked {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: line-through;
+}
+
+.button {
+  margin-left: auto;
+}
+
+.icon {
+  display: block;
+}

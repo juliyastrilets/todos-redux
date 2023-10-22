@@ -1,0 +1,17 @@
+.list {
+  border: 1px solid #ededed;
+  border-radius: 8px;
+}
+
+.item {
+  list-style-type: none;
+  padding: 16px;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid #ededed;
+}
+
+.message {
+  text-align: center;
+}
